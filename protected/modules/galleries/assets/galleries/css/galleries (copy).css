@@ -1,0 +1,26 @@
+/* 
+    Document   : galleries
+    Created on : July 08, 2011, 04:17:34 PM
+    Author     : huytbt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.wd-section-gallery{position:relative}
+.wd-section-gallery .wd-loading{position:absolute;z-index:1200;width:100%;background:url(../img/front/ajax-loader.gif) center center no-repeat;display:none}
+.wd-section-gallery ul{clear:both;padding:10px 0;overflow:hidden}
+.wd-section-gallery ul li{width:180px;margin:0 3px 10px 0;display:-moz-inline-stack;display:inline-block;vertical-align:top;*display:inline;zoom:1}
+.wd-section-gallery ul li a{float:left;width:180px;text-align:center}
+.wd-section-gallery ul li span{font-size:.95em;padding-top:3px}
+.wd-section-gallery ul li img{border:1px solid #dedede;padding:2px;width:173px;height:120px}
+.wd-section-gallery ul li a:hover span{color:#990000}
+.wd-section-gallery ul li a:hover img{border:1px solid #990000}
+
+.jlb_galleries_dialog { width: 750px; }
+
+.jlb_galleries_upload_dialog { width: 870px; }

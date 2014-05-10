@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Centy Theme
+        </title>
+
+        <!-- SETTINGS -->
+
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+        />
+        <meta
+            name="format-detection"
+            content="telephone=no"
+        />
+
+		 <!-- STYLES -->
+		
+		<link href="css/include/reset.css" rel="stylesheet" />
+		<link href="css/include/grid.css" rel="stylesheet" />
+		<link href="css/include/awesome.css" rel="stylesheet" />
+		<link href="css/include/animations.css" rel="stylesheet" />
+		<link href="lib/revolution/css/revolution.css" rel="stylesheet" />
+		<link href="lib/bxslider/jquery.bxslider.css" rel="stylesheet" />
+		<link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet" />
+		<link href="lib/switcher/css/switcher.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		
+		<!-- SCRIPTS -->
+		
+		<script src="js/include/respond.js"></script>
+		<script src="js/include/retina.js"></script>
+		<script src="js/include/jquery.js"></script>
+		<script src="js/include/jquery-ui.js"></script>
+		<script src="js/include/jquery.mobile.js"></script>
+		<script src="js/include/browser.js"></script>
+		<script src="js/include/scale.js"></script>
+		<script src="js/include/quicksand.js"></script>
+		<script src="lib/revolution/js/plugins.js"></script>
+		<script src="lib/revolution/js/revolution.js"></script>
+		<script src="lib/bxslider/jquery.bxslider.min.js"></script>
+		<script src="lib/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="lib/switcher/js/switcher.js"></script>
+		<script src="js/main.js"></script>
+    </head>
+    <body
+        data-page="portfolio"
+        data-boxed="false"
+    >
+
+        <!-- LAYOUT -->
+
+        <div
+            id="layout"
+            class="ui_filter"
+        >
+
+            <!-- HEADER -->
+
+            <div id="header">
+                <div class="container">
+                    <div class="wrapper">
+
+                        <!-- MAIN MENU -->
+
+                        <ul
+                            id="menu"
+                            class="full"
+                        >
+                            <li class="submenu">
+                                <a>
+                                    Menu
+                                </a>
+                                <ul>
+
+                                    <!-- ITEM -->
+
+                                    <li>
+                                        <a href="index.html">
+                                            Home
+                                        </a>
+                                    </li>
+
+                                    <!-- ITEM -->
+
+                                    <li class="submenu current-menu-item">
+                                        <a>
+                                            Portfolio
+                                        </a>
+
+                                        <!-- SUBMENU -->
+
+                                        <ul>
+                                            <li class="current-menu-item">
+                                                <a>
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="detail.html">
+                                                    Detail
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- ITEM -->
+
+                                    <li class="submenu">
+                                        <a>
+                                            Blog
+                                        </a>
+
+                                        <!-- SUBMENU -->
+
+                                        <ul>
+                                            <li>
+                                                <a href="blog.html">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="list.html">
+                                                    Post list
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="post.html">
+                                                    Post
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- ITEM -->
+
+                                    <li>
+                                        <a href="about.html">
+                                            About
+                                        </a>
+                                    </li>
+
+                                    <!-- ITEM -->
+
+                                    <li>
+                                        <a href="contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- LOGO -->
+
+                        <div id="logo">
+                            <a href="index.html">
+                                <img
+                                    src="images/logo.png"
+                                    alt=""
+                                    width="43"
+                                    height="30"
+                                />
+                                <span>
+                                    <b>centy /</b> web architects
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PREFACE -->
+
+            <div id="preface">
+                <div class="container grid">
+                    <div class="row">
+                        <div class="col-1-2">
+                            <h2>
+                                Portfolio
+                            </h2>
+                            <p>
+                                Check out our most recent project we've completed
+                            </p>
+                        </div>
+                        <div class="col-1-2 navigation">
+
+                            <!-- CATEGORIES -->
+
+                            <div class="ui_select ui_filter_switch">
+                                <label>
+                                    ALL
+                                </label>
+                                <ul>
+                                    <li class="active">
+                                        <a data-ui_select_value="all">
+                                            ALL
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-ui_select_value="popular">
+                                            MOST POPULAR
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-ui_select_value="recent">
+                                            MOST RECENT
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-ui_select_value="comments">
+                                            MOST COMMENTED
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- COLUMNS -->
+
+                            <div class="ui_select columns">
+                                <label>
+                                    3 COLUMNS
+                                </label>
+                                <ul>
+                                    <li>
+                                        <a data-ui_select_value="1">
+                                            1 COLUMN
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-ui_select_value="2">
+                                            2 COLUMNS
+                                        </a>
+                                    </li>
+                                    <li class="active">
+                                        <a data-ui_select_value="3">
+                                            3 COLUMNS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-ui_select_value="4">
+                                            4 COLUMNS
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PORTFOLIO -->
+
+            <div id="portfolio">
+                <div class="container">
+                    <div class="grid">
+                        <ul class="row items fade ui_filter_items">
+
+                            <!-- WORK -->
+
+                            <li
+                                class="col-1-3"
+                                data-id="0"
+                                data-ui_filter_value="popular"
+                            >
+                                <a href="detail.html">
+                                    <span class="image">
+                                        <img
+                                            src="photos/portfolio/01.jpg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span class="description">
+                                        <h4>
+                                            It is situated in the bay
+                                        </h4>
+                                        <p>
+                                            a short distance from that
+                                        </p>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <!-- WORK -->
+
+                            <li
+                                class="col-1-3"
+                                data-id="1"
+                                data-ui_filter_value="recent"
+                            >
+                                <a href="detail.html">
+                                    <span class="image">
+                                        <img
+                                            src="photos/portfolio/02.jpg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span class="description">
+                                        <h4>
+                                            It is situated in the bay
+                                        </h4>
+                                        <p>
+                                            a short distance from that
+                                        </p>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <!-- WORK -->
+
+                            <li
+                                class="col-1-3"
+                                data-id="2"
+                                data-ui_filter_value="comments"
+                            >
+                                <a href="detail.html">
+                                    <span class="image">
+                                        <img
+                                            src="photos/portfolio/03.jpg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span class="description">
+                                        <h4>
+                                            It is situated in the bay
+                                        </h4>
+                                        <p>
+                                            a short distance from that
+                                        </p>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <!-- WORK -->
+
+                            <li
+                                class="col-1-3"
+                                data-id="3"
+                                data-ui_filter_value="popular"
+                            >
+                                <a href="detail.html">
+                                    <span class="image">
+                                        <img
+                                            src="photos/portfolio/04.jpg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span class="description">
+                                        <h4>
+                                            It is situated in the bay
+                                        </h4>
+                                        <p>
+                                            a short distance from that
+                                        </p>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <!-- WORK -->
+
+                            <li
+                                class="col-1-3"
+                                data-id="4"
+                                data-ui_filter_value="recent"
+                            >
+                                <a href="detail.html">
+                                    <span class="image">
+                                        <img
+                                            src="photos/portfolio/05.jpg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span class="description">
+                                        <h4>
+                                            It is situated in the bay
+                                        </h4>
+                                        <p>
+                                            a short distance from that
+                                        </p>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <!-- WORK -->
+
+                            <li
+                                class="col-1-3"
+                                data-id="5"
+                                data-ui_filter_value="comments"
+                            >
+                                <a href="detail.html">
+                                    <span class="image">
+                                        <img
+                                            src="photos/portfolio/06.jpg"
+                                            alt=""
+                                        />
+                                    </span>
+                                    <span class="description">
+                                        <h4>
+                                            It is situated in the bay
+                                        </h4>
+                                        <p>
+                                            a short distance from that
+                                        </p>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ui_filter_more">
+                        <a
+                            href="#"
+                            class="ui_button"
+                        >
+                            LOAD MORE WORKS
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QUOTATION REQUEST -->
+
+            <div
+                id="request"
+                class="highlight"
+            >
+                <div class="container">
+                    <a
+                        href="#"
+                        class="ui_button"
+                        data-ui_button_type="inverse"
+                    >
+                        REQUEST A QUOTE
+                    </a>
+                </div>
+            </div>
+
+            <!-- FOOTER TOP -->
+
+            <div id="footer_top">
+                <ul class="container seamless grid ">
+
+                    <!-- LOGO -->
+
+                    <li class="col-2-12">
+                        <a
+                            href="#"
+                            class="logo"
+                        >
+                            <b>centy</b> / web
+                        </a>
+                    </li>
+                    <li class="col-1-12 gap"></li>
+
+                    <!-- FEATURED -->
+
+                    <li class="col-3-12">
+                        <h5>
+                            FEATURED POST
+                        </h5>
+                        <h4>
+                            <a href="post.html">
+                                It is situated in the bay of
+                            </a>
+                        </h4>
+                        <p>
+                            It is situated in the bay of Yeddo, and at but a short distance from that second capital of the Japanese Empire, and the
+                        </p>
+                    </li>
+                    <li class="col-1-12 gap"></li>
+
+                    <!-- ADDRESS -->
+
+                    <li class="col-2-12">
+                        <h5>
+                            ADDRESS
+                        </h5>
+                        <p>
+                            3921 Ash Avenue
+                            Saint Louis, MO 63141
+                        </p>
+                        <p>
+                            <a href="tel:1-408-555-5555">
+                                314-810-6952
+                            </a>
+                            <br />
+                            <a href="mailto:example@example.com">
+                                contact@centy.com
+                            </a>
+                        </p>
+                    </li>
+                    <li class="col-1-12 gap"></li>
+
+                    <!-- SOCIAL NETWORKS -->
+
+                    <li class="col-2-12">
+                        <h5>
+                            FOLLOW US
+                        </h5>
+                        <ul class="follow">
+                            <li>
+                                <a href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- SCROLL TO TOP -->
+
+                        <a
+                            class="arrow"
+                            data-anchor="body"
+                        >
+                            <i class="icon-angle-up"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- FOOTER BOTTOM -->
+
+            <div id="footer_bottom">
+                <div class="container grid">
+                    <ul class="row">
+                        <li class="col-1-3">
+                            &copy; Copyright 2013 Centy
+                        </li>
+                        <li class="col-2-3 right">
+
+                            <!-- NAVIGATION -->
+
+                            <ul class="navigation">
+                                <li>
+                                    <a href="index.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="portfolio4.html">
+                                        Work
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html">
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact us
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <!-- SOCIAL -->
+
+                            <ul class="follow">
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:example@example.com">
+                                        <i class="icon-envelope-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

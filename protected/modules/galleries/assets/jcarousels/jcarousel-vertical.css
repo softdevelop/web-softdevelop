@@ -1,0 +1,12 @@
+.jcarousel-vertical { margin: 0 auto; width: 165px; }
+.jcarousel-vertical  ul li { padding: 10px; }
+.jcarousel-skin-list .jcarousel-container-vertical { height: 280px; overflow: hidden; padding: 15px 0; }
+.jcarousel-skin-list .jcarousel-clip-vertical { height: 280px; }
+.jcarousel-skin-list .jcarousel-item { width: 150px; }
+.jcarousel-skin-list .jcarousel-prev, .jcarousel-skin-list .jcarousel-next { background-image: url(jcarousel-images/ico-arrow-2.gif); cursor: pointer; height: 13px; left: 10px; overflow: hidden; position: absolute; text-indent: -1983em; width: 147px; }
+.jcarousel-skin-list .jcarousel-prev { background-position: left top; top: 0; }
+.jcarousel-skin-list .jcarousel-prev:hover { background-position: left -13px; }
+.jcarousel-skin-list .jcarousel-prev-disabled { background-position: left -26px; }
+.jcarousel-skin-list .jcarousel-next { background-position: -147px top; bottom: 0; }
+.jcarousel-skin-list .jcarousel-next:hover { background-position: -147px -13px;}
+.jcarousel-skin-list .jcarousel-next-disabled { background-position: -147px -26px;}
